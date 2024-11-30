@@ -159,7 +159,7 @@ export default function SearchForm({ onSearch }) {
                         <input
                             type="text"
                             className="pl-10 pr-6 py-2 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-blue-500 w-full shadow-lg transition duration-300 ease-in-out"
-                            placeholder="Where from (e.g., Cairo)"
+                            placeholder="Where from (e.g., USA)"
                             value={searchData.origin}
                             onChange={handleOriginChange}
                             required
@@ -189,7 +189,7 @@ export default function SearchForm({ onSearch }) {
                         <input
                             type="text"
                             className="pl-10 pr-6 py-2 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-blue-500 w-full shadow-lg transition duration-300 ease-in-out"
-                            placeholder="Where to (e.g., New York)"
+                            placeholder="Where to (e.g., Canada)"
                             value={searchData.destination}
                             onChange={handleDestinationChange}
                             required
