@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+.rdrMonth {
+    padding-bottom: 75px;
+}
+
+.calendar-btn,
+.search-btn {
+    position: absolute !important;
+    right: 0 !important;
+    left: 0 !important;
+    margin: 0px auto !important;
+}
+
+.calendar-btn {
+    width: 90% !important;
+    top: 355px !important;
+}
+
+.search-btn {
+    margin-top: 15px !important;
+}
+
+.search-btn button {
+    border-radius: 60px;
+}
